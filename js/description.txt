@@ -1,0 +1,33 @@
+This JavaScript code is for a quiz web application that shuffles questions, handles user interactions, and provides feedback based on the user's responses. Below is a breakdown of the key elements and functionalities:
+
+Question Array:
+
+An array of 10 questions (question_array) related to the World Economic Forum (WEF).
+Each question has multiple choice answers, with the correct answer stored in an associated array (question_answer_correct_anser).
+Shuffle Function:
+
+shuffleArray is used to randomize the order of the questions.
+Quiz Elements:
+
+Various DOM elements are referenced, such as:
+questions, quiz_card, playBtn, nextBtn, username, and tim_rem to manage quiz interaction and display.
+answerButtons to store and manage the four possible answer buttons.
+Event Listeners:
+
+The playBtn listener starts the quiz after the user inputs their name. It displays the first question and starts the countdown timer.
+The nextBtn listener loads the next question when clicked, checks the answer, and updates the score accordingly.
+Answer buttons are enabled to check if the user's answer is correct and provide immediate feedback (green for correct, red for incorrect).
+Quiz Flow:
+
+After each question, the user must click "Next" to proceed. When all 10 questions are completed, the final score is displayed.
+The quiz results can be reviewed by showing each question along with the correct answer and the user's answer.
+Countdown Timer:
+
+The quiz includes a timer that counts down from a set number of minutes (1 minute in this case). If the time runs out, the quiz ends, and the user's score is displayed.
+Review Answers:
+
+The user can review their answers and the correct answers after completing the quiz by clicking the review_ans button.
+Responsive Design:
+
+The quiz's visibility is controlled dynamically by showing and hiding specific elements (questions, final_score, etc.) during different phases of the quiz.
+In summary, this code manages a quiz flow where users can answer questions, track their score, and review their performance, all within a timed setting.

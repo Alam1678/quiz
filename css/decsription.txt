@@ -1,0 +1,73 @@
+
+Here's a detailed description of each CSS class and property in your provided CSS:
+
+.button
+width: 80%; - The button will occupy 80% of its parent container's width.
+border-radius: 25px; - The button has rounded corners with a radius of 25px.
+background-color: rgb(39, 46, 235); - The button has a blue background color.
+color: white; - The text inside the button is white.
+padding: 15px 0; - Adds vertical padding of 15px, with no horizontal padding.
+border: 1px solid black; - The button has a solid black border with 1px thickness.
+font-size: 16px; - The text inside the button has a font size of 16px.
+font-weight: bold; - The button text is bold.
+margin-bottom: 20px; - Adds 20px of space below the button (repeated with 25px in the same rule).
+opacity: 1; - The button is fully opaque.
+.button:hover
+background-color: darkgray; - Changes the button background color to dark gray when hovered.
+.container
+position: relative; - The element is positioned relative to its normal position.
+width: 100%; - The container takes up the full width of the parent.
+height: 100%; - The container takes up the full height of the parent.
+background-image: url("../banner.png"); - A background image is applied.
+background-size: cover; - The background image is scaled to cover the entire container.
+text-align: center; - Text inside the container is centered.
+padding: 0 0 70px 0; - Adds 70px padding at the bottom.
+.footer
+position: fixed; - The footer remains fixed at the bottom of the viewport.
+left: 0; bottom: 0; - Positioned at the bottom-left corner.
+width: 100%; - The footer spans the full width of the page.
+height: 50px; - The footer height is set to 50px.
+background-color: rgb(156, 148, 148); - The footer has a gray background color.
+color: white; - The text inside the footer is white.
+text-align: center; - The text is centered horizontally.
+.container-h
+Similar to .container, but the bottom padding is reduced to 50px.
+ul & ul li
+ul { text-align: justify; font-size: 20px; } - The list (ul) items are justified, and the text size is set to 20px.
+ul li { margin-bottom: 15px; } - Adds 15px of space below each list item.
+.span-h
+font-family: 'Mukta Mahee'; - The font is set to 'Mukta Mahee'.
+font-size: 24px; color: #004FC4; - The text is 24px and has a blue color.
+margin-bottom: 25px; - Adds space below the element.
+.card
+margin: auto; - Centers the card horizontally.
+width: 50%; - The card takes up 50% of the container's width.
+background-color: rgb(255, 255, 255); - The card has a white background.
+padding: 50px 50px 120px 50px; - Adds padding around the content.
+border-radius: 30px; - The card has rounded corners.
+opacity: 0.9; - The card is slightly transparent.
+text-align: center; - The text inside the card is centered.
+.card span
+font-family: 'Mukta Mahee'; font-size: 36px; - The text inside the card is large (36px) and uses the 'Mukta Mahee' font.
+.card input, .card label
+Inputs and labels have consistent styling:
+font-family: 'Mukta Mahee'; font-size: 22px; - Font is 'Mukta Mahee' with a 22px size.
+border-radius: 25px; - Rounded corners for inputs and labels.
+width: 70%; - Inputs and labels are 70% wide.
+.card_quiz, .card_score
+padding: 30px 30px; - Padding is applied around the content.
+min-height: auto / 380px; - Minimum height is set to 380px for .card_score.
+.btn_review, .btn_restart, .btn_home
+Buttons are styled with different background colors and the same font style:
+.btn_review: orange (#FF793D)
+.btn_restart: green (#33AF00)
+.btn_home: blue (#3C79CA)
+font-family: 'Mukta Mahee'; font-size: 28px; border-radius: 25px; - Button text is styled with rounded corners and bold font.
+.time_rem
+Displays the remaining time in the quiz with a larger, bold text.
+.correct_answer, .wrong_answer
+correct_answer: Light green background indicates correct answers.
+wrong_answer: Light red background indicates wrong answers.
+.disable
+color: black; - Elements with this class are styled with black text, indicating that they are disabled.
+This CSS controls the layout and design of a quiz interface, including buttons, containers, footers, cards, and a timer.
