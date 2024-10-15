@@ -274,6 +274,11 @@ review_ans.addEventListener("click", function(){
     review_answersheet.style.display = "none";
  });
 
+ function getUsername() {
+    let userdata = document.getElementById("username_data").value;
+    document.getElementById("username_new").innerHTML = userdata;
+  }
+
 function countdown( elementName, minutes, seconds )
 {
     var element, endTime, hours, mins, msLeft, time;
