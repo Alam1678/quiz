@@ -257,7 +257,7 @@ review_ans.addEventListener("click", function(){
             
             newDiv.classList.add("card_finla_score");
             ansDiv.classList.add("card_finla_score");
-            newDiv.textContent = i + 1 + ". &nbsp;&nbsp; " + myarrQuestions[i];
+            newDiv.textContent = i + 1 + "  " + myarrQuestions[i];
             ansDiv.textContent = "(A) " + myarrAnswer[i][0] + " (B) " + myarrAnswer[i][1] + " (C) " + myarrAnswer[i][2] + " (D) " + myarrAnswer[i][3] + " ** Correct answer : " + myarrCorranser[i] + " ## My answer : " +  myarraMyans[i] ;
             
             review_answersheet.appendChild(newDiv);
