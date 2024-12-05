@@ -81,7 +81,7 @@
     .card_finla_score {font-family: 'Mukta Mahee'; font-size:18px; text-align: left; margin-bottom:10px;}
     .card_finla_score button {font-family: 'Mukta Mahee'; font-size:18px; font-weight: 400; color:#FFFFFF; text-align: center; margin-bottom:10px; background-color:#FF0000; border:1px solid #FF0000; border-radius:15px;padding:5px; width:100px;}
     
-    .footer_button {width:50%;}
+    .footer_button {width:100%;}
     .footer input{font-family:'Mukta Mahee'; font-weight: 600; color:rgb(255, 255, 255); font-size:22px;margin-top:10px; position: relative; background-color: #004AAD; padding:10px 25px; border-radius:25px; border:1px solid #004AAD; float:right; margin-right:380px;}
     .footer button{font-family:'Mukta Mahee'; font-weight: 600; color:rgb(255, 255, 255); font-size:22px;width:100px;margin-top:10px; position: relative; background-color: #FF793D; padding:10px 25px; border-radius:25px; border:1px solid #FF793D;float:left;margin-left:380px;}
     .time_rem{position:absolute;margin-top:30px;margin-left:100px;padding:5px;width:180px;font-family:'Mukta Mahee'; font-weight:400; font-size:24px; color:black;border-radius:25px;}
